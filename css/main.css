@@ -11,6 +11,10 @@ body {
   color: #f04957;
 }
 
+.textShadow{
+  text-shadow: 1px 1px 0px rgba(210, 210, 210, 1);
+}
+
 .form-signin {
   max-width: 330px;
   padding: 15px;
