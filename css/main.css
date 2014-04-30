@@ -3,6 +3,14 @@ body {
   padding-top: 70px;
 }
 
+.redBackground{
+  background-color: #f04957;
+}
+
+.redColor{
+  color: #f04957;
+}
+
 .form-signin {
   max-width: 330px;
   padding: 15px;
