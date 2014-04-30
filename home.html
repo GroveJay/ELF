@@ -9,31 +9,66 @@
     </head>
     <body>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project name</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <div class="row">
+            <div class="col-md-9">
+              <form class="navbar-form" role="search">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search for jobs / research / etc." name="srch-term" id="srch-term">
+                  <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          </div>
         </div>
       </div>
-    </div>
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
-            <h2 class="form-signin-heading">Please sign in or use the search above <span class="glyphicon glyphicon-arrow-up"></h2>
+            <h2 class="homepageHeading">Please sign in or use the search above <span class="glyphicon glyphicon-arrow-up"></h2>
           </div>
         </div>
-        <form class="form-signin" role="form">
-        <input type="email" class="form-control" placeholder="Email address" required="" autofocus="">
-        <input type="password" class="form-control" placeholder="Password" required="">
-        <label class="checkbox">
-          <input type="checkbox" value="remember-me"> Remember me
-        </label>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <div class="row">
+          <div class="col-md-6">
+            <form class="form-signin signin" role="form">
+              <h2 class="form-signin-heading">Sign-in</h2>
+              <input type="email" class="form-control" placeholder="Email address" required="">
+              <input type="password" class="form-control" placeholder="Password" required="">
+              <label class="checkbox">
+                <input type="checkbox" value="remember-me"> Remember me
+              </label>
+              <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <form class="form-signin form-inline register" role="form">
+              <h2 class="form-signin-heading">Register</h2>
+              <input type="text" class="form-control firstName" placeholder="First Name" required="" autofocus="">
+              <input type="text" class="form-control lastName" placeholder="Last Name" required="">
+              <input type="email" class="form-control" placeholder="Email address" required="">
+              <input type="email" class="form-control" placeholder="Re-enter email" required="">
+              <input type="password" class="form-control" placeholder="Password" required="">
+              <label class="checkbox">
+                <input type="checkbox" value="remember-me"> Remember me
+              </label>
+              <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+            </form>
+          </div>
+        </div>
+        
       </form>
       </div>
     </body>
