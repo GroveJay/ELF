@@ -39,13 +39,42 @@
             </div>
           </div>
         </div>
-      </div><!--End Navbar-->
+      </div>
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            
+          <div class="col-md-8 col-md-offset-2">
+            <h2 class="homepageHeading">Please sign in or use the search above <span class="glyphicon glyphicon-arrow-up"></h2>
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-6">
+            <form class="form-signin signin" action="applicant.html" role="form">
+              <h3 class="form-signin-heading">Sign-in</h3>
+              <input type="email" class="form-control" placeholder="Email address" required="">
+              <input type="password" class="form-control" placeholder="Password" required="">
+              <label class="checkbox">
+                <input type="checkbox" value="remember-me"> Remember me
+              </label>
+              <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <form class="form-signin form-register form-inline register" role="form">
+              <h3 class="form-regsiter-heading">Register</h3>
+              <input type="text" class="form-control firstName" placeholder="First Name" required="" autofocus="">
+              <input type="text" class="form-control lastName" placeholder="Last Name" required="">
+              <input type="email" class="form-control" placeholder="Email address" required="">
+              <input type="email" class="form-control" placeholder="Re-enter email" required="">
+              <input type="password" class="form-control" placeholder="Password" required="">
+              <label class="checkbox">
+                <input type="checkbox" value="remember-me"> Remember me
+              </label>
+              <button class="btn btn-lg btn-success btn-block" type="submit">Register</button>
+            </form>
+          </div>
+        </div>
+        
+      </form>
       </div>
     </body>
     <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
