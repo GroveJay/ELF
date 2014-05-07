@@ -118,3 +118,19 @@ dl {
 .navbar-nav.navbar-right:last-child {
   margin-right: 0px;
 }
+
+.navbar-brand{
+  padding: 13px 0px 7px 0px;
+  font-size: 29px;
+}
+
+.navbar{
+  height: 50px;
+}
+
+.navbarLogo{
+  max-height: 30px;
+  overflow: visible;
+  padding-top: 0;
+  padding-bottom: 8px;
+}
