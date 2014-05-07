@@ -3,6 +3,13 @@ body {
   padding-top: 70px;
 }
 
+/*body.home{
+  background-image: url(../img/background.png);
+  background-size: 50% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}*/
+
 .redBackground{
   background-color: #f04957;
 }
