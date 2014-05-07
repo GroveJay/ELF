@@ -78,3 +78,13 @@ body {
 .form-signin{
 	background: #eee;
 }
+
+#inputMajor td label{
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.requirementsForm label{
+  font-weight:normal;
+  font-size: 14px;
+}
